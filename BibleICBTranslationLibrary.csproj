@@ -1,0 +1,151 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Version>1.0.1</Version>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="CommonBasicLibraries" Version="5.0.6" />
+		<PackageReference Include="JsonSerializerContextGenerator" Version="1.0.1"  PrivateAssets="all" />
+	</ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\ICB 1 Chronicles.json" />
+    <None Remove="Resources\ICB 1 Corinthians.json" />
+    <None Remove="Resources\ICB 1 John.json" />
+    <None Remove="Resources\ICB 1 Kings.json" />
+    <None Remove="Resources\ICB 1 Peter.json" />
+    <None Remove="Resources\ICB 1 Samuel.json" />
+    <None Remove="Resources\ICB 1 Thessalonians.json" />
+    <None Remove="Resources\ICB 1 Timothy.json" />
+    <None Remove="Resources\ICB 2 Chronicles.json" />
+    <None Remove="Resources\ICB 2 Corinthians.json" />
+    <None Remove="Resources\ICB 2 John.json" />
+    <None Remove="Resources\ICB 2 Kings.json" />
+    <None Remove="Resources\ICB 2 Peter.json" />
+    <None Remove="Resources\ICB 2 Samuel.json" />
+    <None Remove="Resources\ICB 2 Thessalonians.json" />
+    <None Remove="Resources\ICB 2 Timothy.json" />
+    <None Remove="Resources\ICB 3 John.json" />
+    <None Remove="Resources\ICB Acts.json" />
+    <None Remove="Resources\ICB Amos.json" />
+    <None Remove="Resources\ICB Colossians.json" />
+    <None Remove="Resources\ICB Daniel.json" />
+    <None Remove="Resources\ICB Deuteronomy.json" />
+    <None Remove="Resources\ICB Ecclesiastes.json" />
+    <None Remove="Resources\ICB Ephesians.json" />
+    <None Remove="Resources\ICB Esther.json" />
+    <None Remove="Resources\ICB Exodus.json" />
+    <None Remove="Resources\ICB Ezekiel.json" />
+    <None Remove="Resources\ICB Ezra.json" />
+    <None Remove="Resources\ICB Galatians.json" />
+    <None Remove="Resources\ICB Genesis.json" />
+    <None Remove="Resources\ICB Habakkuk.json" />
+    <None Remove="Resources\ICB Haggai.json" />
+    <None Remove="Resources\ICB Hebrews.json" />
+    <None Remove="Resources\ICB Hosea.json" />
+    <None Remove="Resources\ICB Isaiah.json" />
+    <None Remove="Resources\ICB James.json" />
+    <None Remove="Resources\ICB Jeremiah.json" />
+    <None Remove="Resources\ICB Job.json" />
+    <None Remove="Resources\ICB Joel.json" />
+    <None Remove="Resources\ICB John.json" />
+    <None Remove="Resources\ICB Jonah.json" />
+    <None Remove="Resources\ICB Joshua.json" />
+    <None Remove="Resources\ICB Jude.json" />
+    <None Remove="Resources\ICB Judges.json" />
+    <None Remove="Resources\ICB Lamentations.json" />
+    <None Remove="Resources\ICB Leviticus.json" />
+    <None Remove="Resources\ICB Luke.json" />
+    <None Remove="Resources\ICB Malachi.json" />
+    <None Remove="Resources\ICB Mark.json" />
+    <None Remove="Resources\ICB Matthew.json" />
+    <None Remove="Resources\ICB Micah.json" />
+    <None Remove="Resources\ICB Nahum.json" />
+    <None Remove="Resources\ICB Nehemiah.json" />
+    <None Remove="Resources\ICB Numbers.json" />
+    <None Remove="Resources\ICB Obadiah.json" />
+    <None Remove="Resources\ICB Philemon.json" />
+    <None Remove="Resources\ICB Philippians.json" />
+    <None Remove="Resources\ICB Proverbs.json" />
+    <None Remove="Resources\ICB Psalm.json" />
+    <None Remove="Resources\ICB Revelation.json" />
+    <None Remove="Resources\ICB Romans.json" />
+    <None Remove="Resources\ICB Ruth.json" />
+    <None Remove="Resources\ICB Song of Solomon.json" />
+    <None Remove="Resources\ICB Titus.json" />
+    <None Remove="Resources\ICB Zechariah.json" />
+    <None Remove="Resources\ICB Zephaniah.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="Resources\ICB 1 Chronicles.json" />
+    <AdditionalFiles Include="Resources\ICB 1 Corinthians.json" />
+    <AdditionalFiles Include="Resources\ICB 1 John.json" />
+    <AdditionalFiles Include="Resources\ICB 1 Kings.json" />
+    <AdditionalFiles Include="Resources\ICB 1 Peter.json" />
+    <AdditionalFiles Include="Resources\ICB 1 Samuel.json" />
+    <AdditionalFiles Include="Resources\ICB 1 Thessalonians.json" />
+    <AdditionalFiles Include="Resources\ICB 1 Timothy.json" />
+    <AdditionalFiles Include="Resources\ICB 2 Chronicles.json" />
+    <AdditionalFiles Include="Resources\ICB 2 Corinthians.json" />
+    <AdditionalFiles Include="Resources\ICB 2 John.json" />
+    <AdditionalFiles Include="Resources\ICB 2 Kings.json" />
+    <AdditionalFiles Include="Resources\ICB 2 Peter.json" />
+    <AdditionalFiles Include="Resources\ICB 2 Samuel.json" />
+    <AdditionalFiles Include="Resources\ICB 2 Thessalonians.json" />
+    <AdditionalFiles Include="Resources\ICB 2 Timothy.json" />
+    <AdditionalFiles Include="Resources\ICB 3 John.json" />
+    <AdditionalFiles Include="Resources\ICB Acts.json" />
+    <AdditionalFiles Include="Resources\ICB Amos.json" />
+    <AdditionalFiles Include="Resources\ICB Colossians.json" />
+    <AdditionalFiles Include="Resources\ICB Daniel.json" />
+    <AdditionalFiles Include="Resources\ICB Deuteronomy.json" />
+    <AdditionalFiles Include="Resources\ICB Ecclesiastes.json" />
+    <AdditionalFiles Include="Resources\ICB Ephesians.json" />
+    <AdditionalFiles Include="Resources\ICB Esther.json" />
+    <AdditionalFiles Include="Resources\ICB Exodus.json" />
+    <AdditionalFiles Include="Resources\ICB Ezekiel.json" />
+    <AdditionalFiles Include="Resources\ICB Ezra.json" />
+    <AdditionalFiles Include="Resources\ICB Galatians.json" />
+    <AdditionalFiles Include="Resources\ICB Genesis.json" />
+    <AdditionalFiles Include="Resources\ICB Habakkuk.json" />
+    <AdditionalFiles Include="Resources\ICB Haggai.json" />
+    <AdditionalFiles Include="Resources\ICB Hebrews.json" />
+    <AdditionalFiles Include="Resources\ICB Hosea.json" />
+    <AdditionalFiles Include="Resources\ICB Isaiah.json" />
+    <AdditionalFiles Include="Resources\ICB James.json" />
+    <AdditionalFiles Include="Resources\ICB Jeremiah.json" />
+    <AdditionalFiles Include="Resources\ICB Job.json" />
+    <AdditionalFiles Include="Resources\ICB Joel.json" />
+    <AdditionalFiles Include="Resources\ICB John.json" />
+    <AdditionalFiles Include="Resources\ICB Jonah.json" />
+    <AdditionalFiles Include="Resources\ICB Joshua.json" />
+    <AdditionalFiles Include="Resources\ICB Jude.json" />
+    <AdditionalFiles Include="Resources\ICB Judges.json" />
+    <AdditionalFiles Include="Resources\ICB Lamentations.json" />
+    <AdditionalFiles Include="Resources\ICB Leviticus.json" />
+    <AdditionalFiles Include="Resources\ICB Luke.json" />
+    <AdditionalFiles Include="Resources\ICB Malachi.json" />
+    <AdditionalFiles Include="Resources\ICB Mark.json" />
+    <AdditionalFiles Include="Resources\ICB Matthew.json" />
+    <AdditionalFiles Include="Resources\ICB Micah.json" />
+    <AdditionalFiles Include="Resources\ICB Nahum.json" />
+    <AdditionalFiles Include="Resources\ICB Nehemiah.json" />
+    <AdditionalFiles Include="Resources\ICB Numbers.json" />
+    <AdditionalFiles Include="Resources\ICB Obadiah.json" />
+    <AdditionalFiles Include="Resources\ICB Philemon.json" />
+    <AdditionalFiles Include="Resources\ICB Philippians.json" />
+    <AdditionalFiles Include="Resources\ICB Proverbs.json" />
+    <AdditionalFiles Include="Resources\ICB Psalm.json" />
+    <AdditionalFiles Include="Resources\ICB Revelation.json" />
+    <AdditionalFiles Include="Resources\ICB Romans.json" />
+    <AdditionalFiles Include="Resources\ICB Ruth.json" />
+    <AdditionalFiles Include="Resources\ICB Song of Solomon.json" />
+    <AdditionalFiles Include="Resources\ICB Titus.json" />
+    <AdditionalFiles Include="Resources\ICB Zechariah.json" />
+    <AdditionalFiles Include="Resources\ICB Zephaniah.json" />
+  </ItemGroup>
+
+</Project>
