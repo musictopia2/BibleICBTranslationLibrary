@@ -8,7 +8,7 @@
   </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="CommonBasicLibraries" Version="5.0.6" />
-		<PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.2" />
+		<PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.2" PrivateAssets="all" />
 	</ItemGroup>
   <ItemGroup>
     <None Remove="Resources\ICB 1 Chronicles.json" />
